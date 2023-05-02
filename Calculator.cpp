@@ -26,7 +26,7 @@ class Calculate{
         cout<<"Total Interest  -->  "<<emi*N*12-P<<endl<<endl;
 
         cout<<"Month\t|\tPrincipal Amount\t|\tinterest\t|\tRemaining Amount\n";
-        for (int i = 0; i < N*12; i++)
+        for (int i = 0; i <= N*12; i++)
         {
             inte=R*ra/1200;
             pa=emi-inte;
